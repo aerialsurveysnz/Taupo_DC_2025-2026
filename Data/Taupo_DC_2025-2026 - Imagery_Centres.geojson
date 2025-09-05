@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "name": "Taupo_DC_2025-2026 - Imagery_Centres",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "xy_coordinate_resolution": 1e-15,
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Project": "PGRM3264",
+                "Proj_Name": "Taupo DC Urban Imagery 2025-2026",
+                "Company_Name": null,
+                "SN_No": "SN14413",
+                "Survey_Typ": "Imagery",
+                "Description": null,
+                "OrthoGSD_m": 10,
+                "PointDensity_(points/m2)": null,
+                "Area": 141.94963311760873,
+                "Percentage_Coverage": 100.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.069648295980898,
+                    -38.684313260460641
+                ]
+            }
+        }
+    ]
+}
