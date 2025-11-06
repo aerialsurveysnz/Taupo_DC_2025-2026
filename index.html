@@ -117,7 +117,7 @@
   }
 
   // 🔹 Click handler
-  map.on('click', function (e) {
+  map.on('click','ProjectLayer1', function (e) {
  const featuresPCentre  = map.queryRenderedFeatures({ layers: ['PCentre1'] });
   const featuresCoverage = map.queryRenderedFeatures({ layers: ['CoverageLayer1'] });
   const featuresProject  = map.queryRenderedFeatures({ layers: ['ProjectLayer1'] });
@@ -144,8 +144,8 @@
   });
 
   // 🔹 Cursor feedback
-  map.on('mouseenter', 'PCentre4', () => { map.getCanvas().style.cursor = 'pointer'; });
-  map.on('mouseleave', 'PCentre4', () => { map.getCanvas().style.cursor = ''; });
+  map.on('mouseenter', 'PCentre1', () => { map.getCanvas().style.cursor = 'pointer'; });
+  map.on('mouseleave', 'PCentre1', () => { map.getCanvas().style.cursor = ''; });
 });
 
   </script>
